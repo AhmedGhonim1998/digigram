@@ -678,6 +678,9 @@ p {
     flex-direction: column;
     align-items: center;
   }
+  .left_great_companies h1{
+    width: 100%;
+  }
   .left_contact_us {
     width: 65%;
   }
