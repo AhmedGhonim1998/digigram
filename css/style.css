@@ -676,6 +676,9 @@ p {
   .left_great_companies h1{
     width: 100%;
   }
+  .george_bruke img {
+    width: 40%;
+}
   .nav_container,
   .left_nav_bar {
     flex-direction: column;
