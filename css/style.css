@@ -673,6 +673,9 @@ p {
   :root {
     font-size: 12px;
   }
+  .left_great_companies h1{
+    width: 100%;
+  }
   .nav_container,
   .left_nav_bar {
     flex-direction: column;
