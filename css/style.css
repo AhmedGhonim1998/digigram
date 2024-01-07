@@ -1,0 +1,790 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600;700&display=swap");
+
+:root {
+  --main_color: #6c55f9;
+  --secondary_color: #ffffff;
+  --main_logo_main_color: #b1a5fa;
+  --secodary_logo_color: #dfdded;
+  --shapes_color: #2d2b3a;
+  --card_color: #0ac7f6;
+  --paragraph_color: #6c757d;
+  --secondary_bc_color: #f6f5fc;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Afacad", sans-serif;
+}
+/*******************************************start global style****************************/
+.d_flex {
+  display: flex;
+}
+.d_flex_column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+span {
+  text-transform: capitalize;
+  color: var(--main_color);
+}
+.secondary_button {
+  background-color: var(--secondary_color);
+  color: var(--paragraph_color);
+  border-radius: 50px;
+  border: var(--paragraph_color) 1px solid;
+  height: 55%;
+  text-transform: capitalize;
+}
+p {
+  color: var(--paragraph_color);
+}
+h1 {
+  text-transform: capitalize;
+  width: 60%;
+  font-size: 2.5rem;
+  margin-bottom: 4%;
+}
+h2 {
+  font-size: 2rem;
+  /* width: 70%; */
+}
+/*******************************************end global style****************************/
+
+/****************************************start navbar style***********************/
+
+.nav_container {
+  justify-content: space-between;
+  box-shadow: 0px 0px 5px 2px #dbdada;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.left_nav_bar {
+  justify-content: space-between;
+  margin-left: 5%;
+}
+.left_nav_bar h2 {
+  text-transform: capitalize;
+}
+.right_nav_bar {
+  margin-right: 5%;
+}
+a {
+  text-decoration: none;
+  color: var(--paragraph_color);
+  text-transform: capitalize;
+  transition: 0.2s;
+  cursor: pointer;
+}
+a:hover {
+  color: var(--main_color);
+}
+li {
+  list-style: none;
+  margin-left: 4%;
+}
+.primary_button {
+  background-color: var(--main_color);
+  color: var(--secondary_color);
+  border-radius: 50px;
+  border: var(--main_color) solid;
+  height: 35px;
+  text-transform: capitalize;
+  width: 120px;
+}
+ul {
+  justify-content: space-around;
+  margin-top: 15%;
+}
+.right_nav_bar button {
+  margin-top: 15%;
+}
+/****************************************end navbar style***********************/
+/****************************************start great companies style***********************/
+.great_companies {
+  justify-content: space-around;
+  padding: 40px 10%;
+}
+.left_great_companies p {
+  color: var(--paragraph_color);
+  width: 50%;
+  font-size: 1rem;
+}
+.great_companies_buttons button:first-child {
+  border-radius: 0;
+  width: 100px;
+  height: 35px;
+  border: 1px solid;
+  margin-right: 1%;
+  color: var(--main_color);
+}
+.great_companies_buttons {
+  margin-top: 8%;
+}
+/****************************************end great companies style***********************/
+/*********************************start Provide financial advice companies***********************/
+.provide_financial_section {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  justify-content: center;
+  /* margin-left: 4%;
+   margin-right: 4%; */
+}
+.content {
+  margin-right: 3%;
+}
+.content img {
+  margin-bottom: 5%;
+  margin-right: 2%;
+}
+.financial_advice_content h3{
+  width: 80%;
+}
+hr {
+  color: var(--paragraph_color);
+}
+/*********************************end Provide financial advice companies***********************/
+/****************************************start dynamic team style***********************/
+.dynamic_team_content {
+  justify-content: space-around;
+}
+.horizontal_line {
+  border-bottom: 2px solid;
+  width: 10%;
+  color: var(--main_color);
+}
+.dynamic_team {
+  margin-top: 6%;
+}
+.right_dynamic_team p{
+  width: 90%;
+}
+.right_dynamic_team {
+  width: 40%;
+}
+.right_dynamic_team h2{
+  width: 70%;
+}
+/****************************************end dynamic team style***********************/
+.totaly_invest {
+  justify-content: center;
+  margin: 15% 0 15% 0;
+}
+.contnt {
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+  transition: 0.4s;
+  border: 1px solid var(--paragraph_color);
+  position: relative;
+  height: 135px;
+}
+.contnt p,
+.contnt h4 {
+  margin-top: 10%;
+}
+.contnt h4 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+.contnt p {
+  margin-bottom: 0;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+/****************************************start serve the best style***********************/
+.serve_best_content {
+  justify-content: space-around;
+}
+.serve_best_buttons button:first-child {
+  border-radius: 5px;
+}
+.serve_best_buttons button:last-child {
+  border-radius: 5px;
+  height: 35px;
+  width: 120px;
+  margin-left: 2%;
+}
+.left_serve_best h2{
+  width: 61%;
+}
+.left_serve_best p{
+  width: 84%;
+}
+.left_serve_best{
+  width: 40%;
+}
+/****************************************end serve the best style***********************/
+/****************************************start why choose us style***********************/
+
+.choose_us p,
+.choose_us h2 {
+  text-align: center;
+}
+.choose_us {
+  margin-top: 10%;
+}
+.choose_us_up > .horizontal_line {
+  margin-left: 45%;
+  margin-top: 0;
+}
+.choose_us_bottom {
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.choose_us p {
+  margin-bottom: 0;
+}
+.choose_us h2 {
+  margin-top: 0;
+}
+h5 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.fa-triangle-exclamation {
+  color: var(--shapes_color);
+  margin-left: 40%;
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+.choose_us_bottom p {
+  margin-top: 0;
+}
+.choose_us_bottom {
+  margin-bottom: 10%;
+}
+/****************************************end why choose us style***********************/
+/****************************************start pricing plan style***********************/
+.Pricing_heads {
+  text-align: center;
+}
+.Pricing_headsh2 {
+  margin-bottom: 0;
+}
+.Pricing_heads .horizontal_line {
+  margin-left: 45%;
+  margin-top: 0;
+  margin-bottom: 4%;
+}
+.pricing_pan_conents {
+  justify-content: center;
+}
+
+.contents {
+  width: 20%;
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px solid var(--paragraph_color);
+  position: relative;
+  border-radius: 5px;
+  margin-left: 2%;
+}
+.dedicated_content {
+  background-color: var(--main_color);
+  overflow: hidden;
+}
+.icons {
+  color: #a3abb3;
+  font-size: 3.5rem;
+}
+.pricing_pan_conents button {
+  background-color: transparent;
+  border: 1px solid var(--paragraph_color);
+  border-radius: 100px;
+  height: 32px;
+  width: 106px;
+  margin-bottom: 8%;
+}
+.dedicated_content button {
+  border-color: white;
+  color: white;
+}
+.dedicated_content P {
+  color: white;
+}
+.dedicated_content h4 {
+  color: rgb(233, 192, 7);
+}
+.pricing h6 {
+  font-size: 3.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.dedicated_content h6 {
+  color: var(--secondary_color);
+}
+.pricing::after {
+  content: "$";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 30%;
+  bottom: 66%;
+  line-height: 30px;
+  font-size: 1rem;
+}
+.pricing::before {
+  content: "/monthly";
+  position: absolute;
+  left: 59%;
+  top: 58%;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+}
+.dedicated_content::after {
+  content: "best";
+  position: absolute;
+  background-color: var(--card_color);
+  color: white;
+  width: 56%;
+  height: 26px;
+  left: 60%;
+  top: 5%;
+  text-align: center;
+  line-height: 26px;
+  transform: rotate(45deg);
+}
+.pricing_plan h4 {
+  margin-top: 2%;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.icons {
+  margin-top: 10%;
+}
+.pricing {
+  position: relative;
+}
+/****************************************end pricing plan style***********************/
+/****************************************start geogre bruke style***********************/
+.george {
+  background-color: var(--secondary_bc_color);
+  min-height: 100vh;
+  position: relative;
+  margin-top: 5%;
+}
+.george_bruke {
+  justify-content: center;
+  padding-top: 10%;
+}
+.george_bruke img {
+  width: 18%;
+  border-radius: 10px;
+  margin-right: 8%;
+}
+.right_george p {
+  margin-top: 16%;
+  font-size: 1.2rem;
+  width: 95%;
+}
+.right_george {
+  width: 40%;
+}
+.right_george p:last-child {
+  margin-top: 0;
+  font-weight: 500;
+  color: black;
+}
+.radio {
+  accent-color: var(--main_color);
+  margin-inline-end: 1%;
+}
+.radio_button {
+  margin-top: 3%;
+  justify-content: center;
+  /* padding-bottom: 10%; */
+}
+/****************************************end geogre bruke style***********************/
+/****************************************start latest news style***********************/
+
+.contact_us {
+  justify-content: space-around;
+  margin-bottom: 7%;
+}
+.left_contact_us {
+  margin-top: 7%;
+}
+.left_contact_us h2 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin-bottom: 3%;
+}
+.left_contact_us p {
+  font-size: 1.2rem;
+  width: 80%;
+}
+.data {
+  font-size: 1.2rem;
+  margin-bottom: 5%;
+  color: var(--paragraph_color);
+}
+.info_icons {
+  color: var(--main_color);
+  margin-right: 2%;
+  border: 1px solid var(--paragraph_color);
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.right_contact_us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3%;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+.right_contact_us > p {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.right_contact_us .horizontal_line {
+  margin-bottom: 9%;
+}
+.inputs input {
+  height: 35px;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+textarea {
+  width: 100%;
+  height: 115px;
+}
+.right_contact_us {
+  width: 40%;
+}
+.read_more_content {
+  width: 20%;
+  margin: 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 10px 5px 12px #ccc9c9;
+  transition: 0.4s;
+  position: relative;
+  height: 20%;
+  padding-top: 2%;
+}
+.no_img_content{
+  padding-top: none;
+}
+.latest_news_down .read_more_content:first-child {
+  background-color: var(--main_color);
+}
+.read_content h6:first-child {
+  color: white;
+}
+.latest_news_down h6 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-transform: capitalize;
+  color: black;
+}
+.lates_news_up p {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+.read_more_content h5 {
+  text-align: start;
+  color: white;
+  font-size: 1rem;
+}
+.no_img_content p {
+  color: white;
+  margin-top: 0;
+}
+.latest_news_down button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  margin-top: 15%;
+  height: 50px;
+  text-transform: capitalize;
+}
+.fa-chevron-right {
+  color: white;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+.lates_news_up p,
+.lates_news_up h2 {
+  text-align: center;
+}
+.lates_news_up h2 {
+  margin-top: 0;
+}
+.lates_news_up .horizontal_line {
+  margin-left: 48%;
+  width: 5%;
+}
+.latest_news_down {
+  justify-content: space-around;
+}
+.read_content {
+  margin-left: 4%;
+  margin-top: 10%;
+}
+.latest_news_down img {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+.head_paragraph_content h6 {
+  font-size: 1rem;
+  color: var(--main_color);
+}
+.image_content {
+  align-items: center;
+}
+.head_paragraph_content p {
+  margin-top: 0;
+}
+.head_paragraph_content {
+  margin-left: 4%;
+  align-items: center;
+}
+.rest_content p {
+  color: var(--paragraph_color);
+}
+.rest_content h5 {
+  color: black;
+  font-size: 1rem;
+}
+.read_more_button_2 button,
+.read_more_button_2 .fa-chevron-right {
+  color: var(--main_color);
+  margin-top: 0%;
+}
+.latest_news_down_with_button > button {
+  /* margin-left: 45%; */
+  background-color: white;
+  color: var(--main_color);
+  border: 1px solid;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+/****************************************end latest news style***********************/
+/****************************************start brands***********************/
+.brands {
+  background-color: #f8f9fd;
+}
+.brands_all {
+  justify-content: space-around;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+/****************************************end brands***********************/
+/****************************************start footer***********************/
+.footer_content {
+  justify-content: space-around;
+}
+.footer_content h4,
+p {
+  text-transform: capitalize;
+}
+.footer_content h4 {
+  font-size: 1.5rem;
+  color: var(--paragraph_color);
+}
+.footer_content a {
+  color: blue;
+}
+.footer_content p {
+  font-size: 1.2rem;
+}
+.social_media {
+  justify-content: space-around;
+  margin-top: 20%;
+}
+.social_icons {
+  color: gray;
+  margin-right: 2%;
+  background-color: #f8f9fd;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.input_email input {
+  border: 1px solid var(--paragraph_color);
+  height: 30px;
+  width: 188px;
+}
+/****************************************start copyright ***********************/
+.copy_right {
+  justify-content: space-between;
+  margin-left: 7%;
+  margin-right: 5%;
+}
+.right_copy_right {
+  justify-content: space-around;
+  width: 20%;
+}
+
+/****************************************responsive*******************************************/
+
+@media (max-width: 1000px) {
+  :root{
+    font-size: 15px;
+  }
+  .dynamic_team_content {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 13%;
+  }
+  .right_dynamic_team h2 ,.left_serve_best h2 {
+    width: 76%;
+}
+  .right_dynamic_team ,.left_serve_best ,.right_george  {
+    width: 80%;
+}
+  .left_dynamic_team img,
+  .right_dynamic_team img {
+    width: 70%;
+  }
+  .george_bruke img {
+    width: 25%;
+  }
+  .george_bruke {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing_pan_conents {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contents {
+    width: 35%;
+    margin-bottom: 4%;
+    height: 379px;
+  }
+}
+@media (max-width: 600px) {
+  :root {
+    font-size: 12px;
+  }
+  .nav_container,
+  .left_nav_bar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left_contact_us {
+    width: 65%;
+  }
+  .dedicated_content::after{
+    top: 3%;
+  }
+  .left_contact_us p{
+    width: 100%;
+  }
+  .nav_container{
+    padding-bottom: 5%;
+  }
+  .left_nav_bar {
+    margin-left: 0;
+    margin-right: 6%;
+  }
+  .left_nav_bar h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+  }
+  a {
+    font-size: 1.5rem;
+  }
+  .right_nav_bar button {
+    font-size: 1.5rem;
+  }
+  .right_great_companies img {
+    width: 75%;
+  }
+  .totaly_invest {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .contnt {
+    width: 60%;
+  }
+  .choose_us_content{
+    margin-bottom: 6%;
+  }
+  .choose_us_bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contents {
+    width: 38%;
+    margin-bottom: 4%;
+    height: 290px;
+  }
+  .copy_right {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right_copy_right {
+    width: 35%;
+  }
+}
+@media (max-width: 850px) {
+  :root {
+    font-size: 14px;
+  }
+  .great_companies {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right_contact_us {
+    width: 60%;
+}
+  .provide_financial_section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content {
+    margin-bottom: 2%;
+  }
+  .serve_best_content {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 13%;
+  }
+  .right_serve_best img {
+    width: 80%;
+  }
+  .contact_us {
+    flex-direction: column;
+    align-items: center;
+  }
+  .read_more_content{
+    width: 50%;
+  }
+  .latest_news_down img{
+    width: 15%;
+    margin-bottom: 2%;
+  }
+  .latest_news_down {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .brands_all {
+    flex-direction: column;
+    align-items: center;
+  }
+  .brands_all img {
+    margin-bottom: 10%;
+  }
+  .footer_content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
